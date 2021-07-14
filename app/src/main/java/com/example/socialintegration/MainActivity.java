@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         FacebookSdk.sdkInitialize(getApplicationContext());
 
         textViewUser = findViewById(R.id.t1);
+
         mLogo = findViewById(R.id.iv1);
         loginButton = findViewById(R.id.lb1);
         loginButton.setLoginBehavior( LoginBehavior.WEB_ONLY );
